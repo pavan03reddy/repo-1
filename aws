@@ -1,0 +1,6 @@
+git merge --abort : if we don't want to happen any merge conflicts we can use this command.
+git stash : if we are not sure about the work done by us but we want to switch to another branch , in that case we can use stash command to delete temporary in .git folder and can switch to another branch.
+git stash apply : if we want the stashed changes back to a file we can use this command. all stashed changes will reverted back.
+git stash clear :  if we want to remove the data permanently we can use this command.
+git stash list : if we want to check the stashed list we can use this command.
+git stash drop stash@{1} : if we want to remove particular stash we can use this command.
